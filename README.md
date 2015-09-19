@@ -1,1 +1,1 @@
-# This is Run fusion and remove completed fastq files 
+# This is Run fusion and remove fastq files when done. 
