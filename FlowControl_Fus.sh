@@ -1,10 +1,10 @@
 #########################################################################
 ## Use of this script to run PRADA(RNAseq)                             ##
 ## Example: sh FlowControl6.sh -SARC.id 93                             ##
-## arg1:SARC is cancertype(Main folder name)                           ##
-## arg2:Speed                                                          ##
-## arg3:Number of jobs for PRADA-preprocess to be submited             ##
-## arg4:Disk limit 85% for safe                                        ##
+## arg1:SARC is cancertype(Main folder name)                           ##                                                         ##
+## arg2:Number of jobs for PRADA-preprocess to be submited             ##
+## arg3:Disk limit 85% for safe  
+## arg4: download speed
 ## arg5:config for PRADA version (walltime)                            ##
 ## arg6:every 30 mins to loop over all samples                         ##
 #########################################################################
@@ -28,7 +28,7 @@ Cancertype=`echo $filename | sed 's/.id//'| sed 's/.All//'`
 DiskLimit=${3:-85}                         ## Scratch Space Percent Limit 
 #speed=${4:-5}                             ## download speed
 PBSadj=${5:-a}                             ## PRADA conf.txt files with different parameters
-TimeInterval=${6:-5}                       ## Interval of sleep 15mins 
+TimeInterval=${6:-15}                      ## Interval of sleep 15mins 
 duration=${7:-7200}                        ## Repeat from the beginning after 120mins running
  
 
