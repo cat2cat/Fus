@@ -3,8 +3,8 @@
 ## Example: sh FlowControl6.sh -SARC.id 93                             ##
 ## arg1:SARC is cancertype(Main folder name)                           ##                                                         ##
 ## arg2:Number of jobs for PRADA-preprocess to be submited             ##
-## arg3:Disk limit 85% for safe  
-## arg4: download speed
+## arg3:Disk limit 85% for safe                                        ##
+## arg4: download speed                                                ##
 ## arg5:config for PRADA version (walltime)                            ##
 ## arg6:every 30 mins to loop over all samples                         ##
 #########################################################################
