@@ -396,5 +396,5 @@ cd $Maindir
   sleep $[ 10*$TimeInterval ]   ## minimum 30mins loop once
 done 
  
-## 07-16-2015 end @Kathy
+## 07-16-2015 end ##
 
